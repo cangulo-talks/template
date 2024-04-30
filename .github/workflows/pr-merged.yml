@@ -1,0 +1,18 @@
+name: 🚀 continuous-delivery
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/**"
+      - "*.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-slides:
+    name: 📃 Update slides
+    uses: ./.github/workflows/shared-update-slides.yml
+    secrets: inherit
