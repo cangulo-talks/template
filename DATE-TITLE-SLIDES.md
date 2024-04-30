@@ -2,8 +2,8 @@
 marp: true
 theme: uncover
 paginate: true
-header: Functionless batch processing with EB - Carlos Angulo
-footer: Serverless Barcelona Meetup & AWS User Group Barcelona
+header: Template - Carlos Angulo
+footer: Serverless Barcelona Meetup
 ---
 
 <!--
