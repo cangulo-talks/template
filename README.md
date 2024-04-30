@@ -8,9 +8,13 @@
   * https://marp.app
   * [vs code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
-## GH workflows
+## How to start using this template?
 
-Both GH workflows will convert `*.md` files into `*.pdf`, except for the `README.md`. 
+1. Rename the `DATE-TILE-SLIDES.md` file
+2. Write your presentation
+3. Install the [VS code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) to previsualize the PDF result
+4. Export your slides to PDF using one of the next options:
 
-* [pr-validation.yml](.github/workflows/pr-validation.yml)
-* [pr-merged.yml](.github/workflows/pr-merged.yml)
+* Push your changes to main, the GH workflow will commit the PDF file to main
+* Create a PR, the GH workflow will commit the PDF file to your branch
+* You use the [VS code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
