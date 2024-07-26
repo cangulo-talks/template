@@ -1,5 +1,7 @@
 # template
 
+* Talk: `TALK_NAME` 
+* Event: `MEETUP_EVENT_NAME`
 * Meetup: [Serverless Barcelona](https://www.meetup.com/serverless-barcelona/events/)
 * Date: 20240418
 * Host: [Ohpen](https://ohpen.com)
@@ -7,6 +9,9 @@
   * [slides](slides.md)
   * https://marp.app
   * [vs code extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+
+ TODO: show the meetup poster here:
+ `![](poster.png)`
 
 ## How to start using this template?
 
